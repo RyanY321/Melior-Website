@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Melior Media - Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" type="image/png" href="/image/favicon/MeliorMediaLogo.png">
+     </head>
+
+     <body>
+        <nav class="navbar">
+            <div class="brand-title">Melior Media</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/index.html">Homepage</a></li>
+                    <li><a href="/pages/about.html">About Melior Media</a></li>
+                    <li><a href="/pages/login.html">Melior Login</a></li>
+                    <li><a href="/pages/register.html">Melior Sign Up</a></li>
+                    <li><a href="/pages/melior-shop.html">Melior Media Shop</a></li> 
+                </ul> 
+            </div>
+        </nav>
+        <div class="signup">
+            <h1>Sign Up</h1>
+            <form action="signup.php" method="post">
+                <label for="username"></label>
+                <input type="text" name="username" placeholder="Username" id="username" required>
+                <label for="password"></label>
+                <input type="password" name="password" placeholder="Password" id="password" required>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <script src="/script.js" async defer></script>
+     </body>
+</html>
